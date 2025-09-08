@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { font-family: Inter, Roboto, Arial, sans-serif; margin:0; padding:0; background:#f6f7fb; color:#222 }
+.app-root { max-width:1100px; margin:24px auto; padding:16px }
+.header { display:flex; justify-content:space-between; align-items:center; padding:12px 0 }
+.header h1 { margin:0 }
+.header-right { display:flex; gap:12px; align-items:center }
+.main-grid { display:grid; grid-template-columns: 1fr 340px; gap:18px; margin-top:18px }
+.products { background:white; padding:16px; border-radius:8px; min-height:400px }
+.cart { background:white; padding:12px; border-radius:8px }
+.footer { text-align:center; margin-top:18px; color:#666 }
+.product-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(180px,1fr)); gap:12px }
+.card { border:1px solid #eee; padding:12px; border-radius:8px; display:flex; flex-direction:column; gap:8px; height:100% }
+.card img { width:100%; height:140px; object-fit:contain }
+.card h4 { font-size:14px; margin:0 }
+.card .price { font-weight:600 }
+.btn { padding:8px 10px; border:none; border-radius:6px; cursor:pointer }
+.btn-primary { background:#0b74de; color:white }
+.btn-ghost { background:transparent; border:1px solid #ddd }
+.cart-item { display:flex; gap:10px; align-items:center; padding:8px 0; border-bottom:1px dashed #eee }
+.qty { font-weight:600 }
+.small { font-size:13px; color:#666 }
